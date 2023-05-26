@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 150px;
+    width: 100%;
+    border: 2px dashed blue;
+}
+main{
+    min-height: 1200px;
+    width:100%;
+    border: 2px dashed purple;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    border: 2px dashed red;
+}
+aside.leftaside{
+    width:25%;
+    min-height: 1200px;
+    border: 2px dashed black;
+    float: left;
+}
+section{
+    width: 50%;
+    min-height: 1200px;
+    border: 2px dashed black;
+    float: left;
+}
+aside.rightaside{
+     width: 24%;
+     min-height: 1200px;
+     border: 2px dashed black;
+     float:left
+}
+header >nav >ul > li{
+     list-style: none;
+     float: left;
+     padding: 10px;
+}
+
